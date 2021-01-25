@@ -7,11 +7,11 @@ function App() {
      time_list : []
    });
    const tap = () => {
-     setState({...state, Date.now()})
+     setState({...state, time_list:[...state.time_list, Date.now()]})
    }
   return (
     <div className="App">
-      <Button size="large" variant="contained" color="primary">
+      <Button size="large" variant="contained" color="primary" onClick={tap}>
         Tap
       </Button>
       <p>
