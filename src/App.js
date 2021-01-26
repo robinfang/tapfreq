@@ -24,6 +24,7 @@ class App extends React.Component {
     }
 
     tap() {
+        window.navigator.vibrate(200);
         this.setState(state => ({
             time_list: [...state.time_list, Date.now()]
         }));
