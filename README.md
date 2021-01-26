@@ -1,6 +1,8 @@
 # tapfreq
 在连续点击按钮后，计算频率，单位：次/分钟。适用场景：输液估算流速。
 
+![Screenshot](preview.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
