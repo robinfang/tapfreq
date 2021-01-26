@@ -3,6 +3,9 @@
 
 <img src="preview.gif" width="620">
 
+可以部署到Heroku（有免费），部署参考[Deploying React with Zero Configuration
+](https://blog.heroku.com/deploying-react-with-zero-configuration)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
